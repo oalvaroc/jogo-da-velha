@@ -1,0 +1,171 @@
+* {
+    font-family: 'Silkscreen', cursive;
+}
+
+:root {
+    --black: #241f31;
+    --gray: #deddda;
+    --light-blue: #99c1f1;
+    --blue: #1a5fb4;
+    --green: #26a269;
+    --red: #e01b24;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    background-color: var(--gray);
+}
+
+/* Titles */
+h1,
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* Page header */
+header {
+    background-color: var(--light-blue);
+}
+
+header img {
+    width: 5em;
+    margin: 10px;
+}
+
+/* Modal dialog */
+#players-dialog {
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--black);
+    width: 30vw;
+}
+
+#players-dialog>div {
+    height: 100%;
+}
+
+#players-dialog p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#players-dialog input[type="text"] {
+    padding: 5px;
+}
+
+.btn {
+    background-color: var(--green);
+    color: var(--white);
+    border-style: none;
+    border-radius: 5px;
+    width: 50%;
+    padding: 4px 2px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn:enabled:hover {
+    box-shadow: 0.3px 1px 2px var(--black);
+}
+
+.input-row {
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    margin-right: 10px;
+}
+
+/* Game grid */
+.row {
+    width: 100%;
+}
+
+.cell {
+    border: 1px solid var(--black);
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+}
+
+#game-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#game-info {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#time-counter {
+    width: 100%;
+}
+
+#player1,
+#player2 {
+    margin: auto;
+}
+
+#message-area {
+    text-align: center;
+}
+
+.mark-x {
+    color: var(--red);
+}
+
+.mark-o {
+    color: var(--blue);
+}
+
+.opaque {
+    opacity: 0.6;
+}
+
+#restart-button {
+    background-color: var(--green);
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* Flex Layout */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}

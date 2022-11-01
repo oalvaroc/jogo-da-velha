@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="main.js" defer></script>
+
+  <title>Jogo da Velha</title>
+</head>
+<body>
+  <header class="d-flex justify-content-center">
+    <img src="assets/img/logo.svg" alt="Logo do site com um tabuleiro de Jogo da Velha">
+    <h1>Jogo da Velha</h1>
+  </header>
+
+  <dialog id="players-dialog">
+    <div class="d-flex flex-column justify-content-between">
+      <h2>Bem vindo!</h2>
+
+      <p>Para iniciar, insira o nome dos jogadores</p>
+
+      <form method="dialog" class="d-flex justify-content-center flex-wrap">
+        <div class="input-row d-flex justify-content-between">
+          <label for="player1-name">Jogador 1</label>
+          <input id="player1-name" type="text" placeholder="Nome" required>
+        </div>
+
+        <div class="input-row d-flex justify-content-between">
+          <label for="player2-name">Jogador 2</label>
+          <input id="player2-name" type="text" placeholder="Nome" required>
+        </div>
+
+        <input class="btn" type="submit" value="Jogar!" disabled>
+      </form>
+    </div>
+  </dialog>
+
+  <div id="game-container" class="d-flex flex-column">
+    <div id="game-info" class="d-flex justify-content-center flex-wrap">
+      <span id="time-counter">Tempo: --:--</span>
+      <span id="player1">Jogador 1: --</span>
+      <span id="player2">Jogador 2: --</span>
+    </div>
+
+    <div id="game-grid" class="d-flex justify-content-center flex-wrap">
+      <div class="row d-flex justify-content-center">
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+        <div class="cell d-flex justify-content-center"></div>
+      </div>
+    </div>
+
+    <p id="message-area"></p>
+  </div>
+
+</body>
+</html>

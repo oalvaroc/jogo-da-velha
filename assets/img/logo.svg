@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   version="1.1"
+   viewBox="0 0 120 120"
+   id="svg28"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.975"
+     inkscape:cx="60.251572"
+     inkscape:cy="59.874214"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <g
+     fill="#241f31"
+     id="g10">
+    <path
+       d="m19.43 114.57c-1.6974 5.9698 7.2927 6.4818 8.6669 1.6484l28.771-107.64c2.0955-7.3699-7.5121-7.8832-9.0508-2.4718-9.4622 36.153-18.924 72.307-28.387 108.46z"
+       stroke-width="1.361"
+       id="path2"
+       style="fill:#241f31" />
+    <path
+       d="m60.261 113.9c-1.6974 5.9698 7.2927 6.4818 8.6669 1.6484l28.771-107.64c2.0955-7.3699-7.5121-7.8832-9.0508-2.4718-9.4622 36.153-18.924 72.307-28.387 108.46z"
+       stroke-width="1.361"
+       id="path4"
+       style="fill:#241f31" />
+    <path
+       d="m4.7316 36.756c-6.0647-0.09447-4.2741 8.7218 0.63615 8.7983l108.88-0.068214c7.4871 0.11663 5.5415-9.2965 0.0441-9.3821-36.521 0.21736-73.043 0.43472-109.56 0.65209z"
+       stroke-width="1.3454"
+       id="path6"
+       style="fill:#241f31" />
+    <path
+       d="m4.4225 77.316c-6.0647-0.09447-4.2741 8.7218 0.63614 8.7983l108.88-0.06821c7.4871 0.11663 5.5415-9.2965 0.0441-9.3821-36.521 0.21736-73.043 0.43472-109.56 0.65209z"
+       stroke-width="1.3454"
+       id="path8"
+       style="fill:#241f31" />
+  </g>
+  <g
+     font-family="Cantarell"
+     font-size="31.839px"
+     font-weight="bold"
+     stroke-width=".99498"
+     id="g26">
+    <text
+       transform="scale(1.0385 .96295)"
+       x="46.943268"
+       y="75.216583"
+       fill="#26a269"
+       style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#e01b24"
+       xml:space="preserve"
+       id="text16"><tspan
+         x="46.943268"
+         y="75.216583"
+         fill="#26a269"
+         font-family="Cantarell"
+         font-size="31.839px"
+         font-weight="bold"
+         stroke-width=".99498"
+         style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#e01b24"
+         id="tspan14">X</tspan></text>
+    <text
+       transform="scale(1.0385 .96295)"
+       x="33.619873"
+       y="116.94465"
+       fill="#613583"
+       style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#1a5fb4"
+       xml:space="preserve"
+       id="text20"><tspan
+         x="33.619873"
+         y="116.94465"
+         fill="#613583"
+         font-family="Cantarell"
+         font-size="31.839px"
+         font-weight="bold"
+         stroke-width=".99498"
+         style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#1a5fb4"
+         id="tspan18">O</tspan></text>
+    <text
+       transform="scale(1.0385 .96295)"
+       x="16.22818"
+       y="32.852776"
+       fill="#26a269"
+       style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#e01b24"
+       xml:space="preserve"
+       id="text24"><tspan
+         x="16.22818"
+         y="32.852776"
+         fill="#26a269"
+         font-family="Cantarell"
+         font-size="31.839px"
+         font-weight="bold"
+         stroke-width=".99498"
+         style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;fill:#e01b24"
+         id="tspan22">X</tspan></text>
+  </g>
+</svg>
